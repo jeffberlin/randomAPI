@@ -17,4 +17,6 @@ fetch('https://randomuser.me/api')
     const gender = json.results[0].gender
     document.getElementById('gender').innerHTML = gender
 
+    const photo = json.results[0].picture.large
+    document.getElementById('picture').src = photo
   })
