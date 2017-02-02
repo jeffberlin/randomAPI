@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="flex-container">
+
+		<div class="header">
+			<img id="picture" src="https://randomuser.me/api/portraits/women/24.jpg">
+			<div id="name">
+				<h4></h4>
+			</div>
+			<div id="number">
+				<span></span>
+			</div>
+		</div>
+		<div id="flex-info">
+				<div>
+					<span id="flex-label">DOB:</span>
+					<span id="flex-text"></span>
+				</div>
+
+				<div>
+					<span id="flex-label">SSN:</span>
+					<span id="ssn"></span>
+				</div>
+
+				<div id="flex-last">
+					<span id="flex-label">Gender:</span>
+					<span id="gender"></span>
+				</div>
+		
+		</div>
+		<input type="button" value="Load New User" onClick="window.location.reload()">
+
+	</div>
+	
+	<script type="text/javascript" src="main.js"></script>
+	
+</html>

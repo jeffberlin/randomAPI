@@ -1,0 +1,72 @@
+body {
+	margin-top: 35px;
+	text-align: center;
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+.flex-container {
+	display: -webkit-flex;
+	display: inline-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	width: 330px;
+}
+#flex-last {
+	border-radius: 0 0 3px 3px;
+}
+.header {
+	border: 1.5px solid #eff1f4;
+	border-radius: 3px 3px 0 0;
+	text-align: center;
+}
+#picture {
+	margin-top: 50px;
+	margin-bottom: -8px;
+    border-radius: 50%;
+    margin-right: 
+}
+#name {
+	color: #313e51;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	letter-spacing: .75px;
+	font-size: 14pt;
+	opacity: .80;
+	text-transform: capitalize;
+}
+#number {
+	color: #939ead;
+	letter-spacing: 1.25px;
+	margin-bottom: 20px;
+	font-size: 14pt;
+}
+#flex-info div {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1.5px solid #eff1f4;
+	border-left: 1.5px solid #eff1f4;
+	border-right: 1.5px solid #eff1f4;
+	padding-top: 19px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 19px;
+	color: #939ead;
+	font-size: 11pt;
+	letter-spacing: .70px;
+}
+#flex-label {
+	font-weight: bold;
+}
+#gender {
+	text-transform: capitalize;
+}
+input {
+	color: #ffffff;
+	background-color: #5beebe;
+	width: 155px;
+	height: 50px;
+	border: none;
+	margin-top: 25px;
+	border-radius: 3px;
+	font-size: 12pt;
+	align-self: center;
+}
