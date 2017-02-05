@@ -1,3 +1,4 @@
+const getNewUser = () => {
 fetch('https://randomuser.me/api')
     .then(response => response.json())
   .then((json) => {
@@ -20,3 +21,6 @@ fetch('https://randomuser.me/api')
     const photo = json.results[0].picture.large
     document.getElementById('picture').src = photo
   })
+}
+
+  window.addEventListener('load', () => getNewUser())
