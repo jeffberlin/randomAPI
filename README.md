@@ -5,4 +5,4 @@ Takes the randomapi and puts it into a name card
 * Download the .zip files
 * Open the index.html file in the browser
 
-#### This project was created to match the design created by Gavin Anthony.
+#### This project was built to match the design created by Gavin Anthony.
